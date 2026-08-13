@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A practical guide to calculating work hours, breaks, time differences, decimal hours, and overnight shifts.">
+<title>Time Calculations Made Easy | Hesapla Analiz</title>
+<style>
+:root{--teal:#045A5D;--gold:#855815;--cream:#fbf8f0;--ink:#173b3d;--muted:#607577;--line:#e6e0d4}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:radial-gradient(circle at 10% 5%,#045a5d18,transparent 24%),radial-gradient(circle at 90% 10%,#85581518,transparent 22%),var(--cream);line-height:1.75}a{color:var(--teal)}
+.container{width:min(1080px,calc(100% - 40px));margin:auto}
+header{padding:72px 0 58px;background:linear-gradient(135deg,var(--teal),#0b7476);color:#fff}
+.eyebrow{display:inline-block;padding:7px 13px;border-radius:999px;background:#ffffff20;border:1px solid #ffffff30;font-size:.84rem;margin-bottom:18px}
+h1{max-width:800px;margin:0 0 18px;font-size:clamp(2.2rem,5vw,4.1rem);line-height:1.08;letter-spacing:-.045em}.lead{max-width:760px;color:#ffffffdf;font-size:1.12rem}
+main{padding:55px 0 80px}.intro,.section,.card,.tip{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 18px 50px #045a5d1a}
+.intro,.section{padding:32px;margin-top:24px}.intro{margin-top:0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:28px 0}.card{padding:30px}
+.icon{width:52px;height:52px;display:grid;place-items:center;border-radius:15px;background:#f2eadb;color:var(--gold);font-size:1.45rem;margin-bottom:18px}
+h2{margin:0 0 14px;color:var(--teal);font-size:clamp(1.55rem,3vw,2.15rem);line-height:1.2}
+.steps{display:grid;gap:12px;margin:18px 0 0;padding:0;list-style:none;counter-reset:step}.steps li{counter-increment:step;display:grid;grid-template-columns:38px 1fr;gap:13px;align-items:start;padding:14px;border-radius:15px;background:#faf8f2}.steps li:before{content:counter(step);width:32px;height:32px;display:grid;place-items:center;border-radius:50%;background:var(--teal);color:#fff;font-weight:700}
+.example{margin:18px 0;padding:20px;border-left:4px solid var(--gold);background:#fcf8ee;border-radius:0 14px 14px 0}.tip{padding:22px 26px;margin-top:24px;box-shadow:none;background:#fffdf8}
+.cta{margin-top:30px;padding:34px;border-radius:24px;background:linear-gradient(135deg,#eaf5f3,#fff8e9);border:1px solid var(--line)}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 18px;border-radius:12px;text-decoration:none;font-weight:700;background:var(--teal);color:#fff}.button.gold{background:var(--gold)}
+footer{padding:30px 0 45px;color:var(--muted);font-size:.92rem;text-align:center}
+@media(max-width:760px){.container{width:min(100% - 24px,1080px)}header{padding:52px 0 44px}main{padding:34px 0 55px}.grid{grid-template-columns:1fr}.intro,.section,.card{padding:24px}}
+</style>
+</head>
+<body>
+<header><div class="container">
+<div class="eyebrow">Practical Time Calculation Guide</div>
+<h1>Time Calculations Made Easy</h1>
+<p class="lead">From a normal workday to an overnight shift, small time calculations can become surprisingly confusing. This guide explains two everyday tasks clearly: calculating net working hours and finding the difference between two times.</p>
+</div></header>
+
+<main><div class="container">
+<section class="intro">
+<h2>Why time calculations matter</h2>
+<p>We calculate time more often than we realize. A worker may want to know how many hours were actually worked after a lunch break. A freelancer may need to track billable time. A student may want to measure study time, while a traveler may need to know how long a journey lasted.</p>
+<p>The basic subtraction is simple, but breaks, decimal hours, and periods that cross midnight can make manual calculations less convenient. A dedicated calculator can turn those inputs into a clear result without requiring mental arithmetic.</p>
+</section>
+
+<div class="grid">
+<article class="card"><div class="icon">◷</div>
+<h2>Calculate Net Working Hours</h2>
+<p>The <a href="https://hesaplaanaliz.com/calisma-saati-hesaplama/">Çalışma Saati Hesaplama</a> tool uses a start time, end time, and optional break duration to calculate net working time.</p>
+<p>It can display the result as hours and minutes, decimal hours, and total minutes. It also handles an overnight shift such as 22:00 to 06:00 automatically.</p>
+</article>
+<article class="card"><div class="icon">◴</div>
+<h2>Find the Difference Between Two Times</h2>
+<p>The <a href="https://hesaplaanaliz.com/saat-farki-hesaplama/">Saat Farkı Hesaplama</a> tool focuses on the elapsed time between a starting time and an ending time.</p>
+<p>The result can be viewed as hours and minutes, decimal hours, and total minutes. It also recognizes periods that pass midnight.</p>
+</article>
+</div>
+
+<section class="section">
+<h2>How to calculate working hours</h2>
+<p>Net working time is the time between starting and finishing work after subtracting an entered break. For example, if someone starts at 09:00, finishes at 18:00, and takes a 60-minute break, the total span is nine hours and the net working time is eight hours.</p>
+<ol class="steps"><li>Enter the time you started work, such as 09:00.</li><li>Enter the time you finished work, such as 18:00.</li><li>Enter your break in minutes, such as 60, if applicable.</li><li>Review the calculated net duration, decimal-hour value, and total minutes.</li></ol>
+<div class="example"><strong>Example:</strong> 09:00 → 18:00 with a 60-minute break = 8 hours of net working time.</div>
+</section>
+
+<section class="section">
+<h2>How to calculate the difference between two times</h2>
+<p>A time-difference calculation measures the elapsed duration from a starting time to an ending time. For example, from 09:30 to 17:15, the difference is 7 hours and 45 minutes, which is 7.75 hours in decimal form.</p>
+<ol class="steps"><li>Enter the starting time using the 24-hour format.</li><li>Enter the ending time.</li><li>Let the calculator determine the elapsed duration.</li><li>Use the hours-and-minutes, decimal-hour, or total-minute result depending on your purpose.</li></ol>
+<div class="example"><strong>Example:</strong> 09:30 → 17:15 = 7 hours 45 minutes = 7.75 decimal hours.</div>
+</section>
+
+<section class="section">
+<h2>What happens when the calculation crosses midnight?</h2>
+<p>This is one of the easiest situations to get wrong manually. Imagine a shift that starts at 22:00 and finishes at 06:00 the next morning. The ending clock time is numerically smaller than the starting time, but the finish belongs to the following day.</p>
+<p>Both Hesapla Analiz tools are designed to recognize this overnight situation automatically. A 22:00 → 06:00 period is therefore calculated as 8 hours.</p>
+</section>
+
+<section class="section">
+<h2>Hours and decimal hours: what is the difference?</h2>
+<p>Hours and minutes are usually easiest to read. Decimal hours are useful when a duration needs to be multiplied by an hourly rate or used in another numerical calculation.</p>
+<div class="example"><strong>Remember:</strong> 7 hours 30 minutes = 7.50 decimal hours, while 7 hours 45 minutes = 7.75 decimal hours.</div>
+</section>
+
+<div class="tip"><strong>Quick tip:</strong> Use the work-hours calculator when you need to account for a break. Use the time-difference calculator when you simply want the elapsed time between two clock times.</div>
+
+<section class="cta">
+<h2>Try the calculators</h2>
+<p>Instead of calculating everything manually, enter your times and let the tools handle the arithmetic. Both calculators are designed for quick, practical everyday use.</p>
+<div class="buttons"><a class="button" href="https://hesaplaanaliz.com/calisma-saati-hesaplama/">Calculate Work Hours</a><a class="button gold" href="https://hesaplaanaliz.com/saat-farki-hesaplama/">Calculate Time Difference</a></div>
+</section>
+</div></main>
+<footer><div class="container">A practical guide by Hesapla Analiz · Turkish calculation tools for everyday use.</div></footer>
+</body></html>
